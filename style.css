@@ -24,3 +24,5 @@ button:hover {
     border: solid 2px #000000;
     padding: 20px;
 }
+
+input[type=text] {text-align: right;}

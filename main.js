@@ -19,5 +19,9 @@ document.addEventListener("DOMContentLoaded", function(){
             handleNumberClick(event.target.textContent);
         })
     }
-
+    // キーボード入力を無効にする
+    input.addEventListener("keydown", function(event){
+        event.preventDefault();
+    });
+    
 });
